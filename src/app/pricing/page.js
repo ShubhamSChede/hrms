@@ -424,30 +424,30 @@ export default function Pricing() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Product</h4>
               <ul className="space-y-2">
-                <li><a href="/#features" className="text-gray-300 hover:text-white">Features</a></li>
-                <li><a href="/pricing" className="text-gray-300 hover:text-white">Pricing</a></li>
-                <li><a href="/integrations" className="text-gray-300 hover:text-white">Integrations</a></li>
-                <li><a href="/api" className="text-gray-300 hover:text-white">API</a></li>
+                <li><Link href="/#features" className="text-gray-300 hover:text-white">Features</Link></li>
+                <li><Link href="/pricing" className="text-gray-300 hover:text-white">Pricing</Link></li>
+                <li><Link href="/integrations" className="text-gray-300 hover:text-white">Integrations</Link></li>
+                <li><Link href="/api" className="text-gray-300 hover:text-white">API</Link></li>
               </ul>
             </div>
             
             <div>
               <h4 className="text-lg font-semibold mb-4">Company</h4>
               <ul className="space-y-2">
-                <li><a href="/about" className="text-gray-300 hover:text-white">About Us</a></li>
-                <li><a href="/careers" className="text-gray-300 hover:text-white">Careers</a></li>
-                <li><a href="/blog" className="text-gray-300 hover:text-white">Blog</a></li>
-                <li><a href="/contact" className="text-gray-300 hover:text-white">Contact</a></li>
+                <li><Link href="/about" className="text-gray-300 hover:text-white">About Us</Link></li>
+                <li><Link href="/careers" className="text-gray-300 hover:text-white">Careers</Link></li>
+                <li><Link href="/blog" className="text-gray-300 hover:text-white">Blog</Link></li>
+                <li><Link href="/contact" className="text-gray-300 hover:text-white">Contact</Link></li>
               </ul>
             </div>
             
             <div>
               <h4 className="text-lg font-semibold mb-4">Support</h4>
               <ul className="space-y-2">
-                <li><a href="/help" className="text-gray-300 hover:text-white">Help Center</a></li>
-                <li><a href="/docs" className="text-gray-300 hover:text-white">Documentation</a></li>
-                <li><a href="/privacy" className="text-gray-300 hover:text-white">Privacy Policy</a></li>
-                <li><a href="/terms" className="text-gray-300 hover:text-white">Terms of Service</a></li>
+                <li><Link href="/help" className="text-gray-300 hover:text-white">Help Center</Link></li>
+                <li><Link href="/docs" className="text-gray-300 hover:text-white">Documentation</Link></li>
+                <li><Link href="/privacy" className="text-gray-300 hover:text-white">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="text-gray-300 hover:text-white">Terms of Service</Link></li>
               </ul>
             </div>
           </div>
