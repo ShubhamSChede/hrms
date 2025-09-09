@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Contact() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

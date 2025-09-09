@@ -21,6 +21,7 @@ import {
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function About() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -179,7 +180,7 @@ export default function About() {
               animate="animate"
               transition={{ delay: 0.2 }}
             >
-              We're on a mission to revolutionize HR management for businesses across India, 
+              We&apos;re on a mission to revolutionize HR management for businesses across India, 
               making complex HR processes simple, efficient, and accessible to everyone.
             </motion.p>
           </motion.div>

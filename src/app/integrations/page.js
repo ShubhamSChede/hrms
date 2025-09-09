@@ -20,6 +20,7 @@ import {
   Cloud
 } from 'lucide-react';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Integrations() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
