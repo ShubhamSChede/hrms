@@ -499,13 +499,14 @@ export default function Home() {
                     </motion.div>
                   ))}
                 </motion.div>
-                <p className="text-white/90 mb-6 text-lg leading-relaxed">"{testimonial.content}"</p>
+                <p className="text-white/90 mb-6 text-lg leading-relaxed">&ldquo;{testimonial.content}&rdquo;</p>
                 <div className="flex items-center">
                   <motion.div 
                     className="w-12 h-12 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4"
                     whileHover={{ rotate: 360 }}
                     transition={{ duration: 0.5 }}
                   >
+
                     {testimonial.name.split(' ').map(n => n[0]).join('')}
                   </motion.div>
                   <div>

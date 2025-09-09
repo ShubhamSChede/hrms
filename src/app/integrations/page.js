@@ -268,7 +268,7 @@ export default function Integrations() {
             </div>
             
             <div className="bg-gray-900 rounded-xl p-8">
-              <div className="text-green-400 text-sm font-mono mb-4">// Example API Call</div>
+              <div className="text-green-400 text-sm font-mono mb-4">{/* Example API Call */}</div>
               <pre className="text-gray-300 text-sm overflow-x-auto">
 {`curl -X POST https://api.hrmspro.com/v1/employees \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
